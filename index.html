@@ -44,7 +44,19 @@
 <body>
     <div id="root">
 
+        <!-- Prova Navbar usando javascript  -->
+        <nav>
+            <ul class="d-flex g-2">
+                <li v-for="object in navbar" class="mx-2" :class="object.image !== ''?'nav-img-content':''">
+                    <a :href="object.link">
+                        <img v-if="object.image !== ''" :src="'./img/'+object.image" alt="logo">
+                        {{object.title}}
+                    </a>
+                </li>
+            </ul>
 
+
+        </nav>
     </div>
 
 </body>

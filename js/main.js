@@ -3,27 +3,63 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      //! Prova iniziale Navbar
-      navbar: [
+      //* NavBar List completa
+
+      navbarList: [
         {
           title: "Home",
           link: "#",
-          image: "",
+          icon: "",
         },
         {
           title: "About Us",
           link: "#",
-          image: "",
+          icon: "",
         },
         {
           title: "Vehicles",
           link: "#",
-          image: "",
+          icon: "",
+        },
+        {
+          title: "Dealers",
+          link: "#",
+          icon: "",
         },
         {
           title: "Packages",
           link: "#",
-          image: "add.png",
+          icon: "",
+        },
+        {
+          title: "blog",
+          link: "#",
+          icon: "",
+        },
+        {
+          title: "Contact",
+          link: "#",
+          icon: "",
+        },
+        {
+          title: "My Account",
+          link: "#",
+          icon: "padlock.png",
+        },
+        {
+          title: "Add Car",
+          link: "#",
+          icon: "add.png",
+        },
+        {
+          title: "  ",
+          link: "#",
+          icon: "bars-staggered-solid.svg",
+        },
+        {
+          title: "+1 (234)567 89 10",
+          link: "#",
+          icon: "headphones.png",
         },
       ],
     };

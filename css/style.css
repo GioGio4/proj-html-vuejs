@@ -71,3 +71,26 @@ body {
   bottom: 50%;
   left: 10%;
 }
+
+/*************************************** 
+*          MAIN                        *
+*                                      *
+****************************************/
+/*?-------- SECTION FORM AUTO SEARCH---------- */
+
+.form-auto-search input,
+.form-auto-search select {
+  width: 150px;
+  height: 73px;
+  color: var(--grey);
+  text-align: center;
+  border-radius: 3px;
+  border-style: none;
+  border: 1px solid var(--grey);
+}
+
+.form-auto-search button {
+  width: 150px;
+  height: 73px;
+  border-radius: 3px;
+}

@@ -50,3 +50,8 @@ Jumbotron: Carousel
 - Migliorare stile bottoni che contengono icone
 - Controllare grandezza font testo Jumbotron
 - Aggiungere icone(button) per slider Jumbotron
+
+---
+
+<h1 style="color:green">DETTAGLI SVILUPPO </h1>
+Utilizzato un box-shadow per gestire bordi nella sezione Auto-categories-search.

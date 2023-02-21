@@ -94,3 +94,16 @@ body {
   height: 73px;
   border-radius: 3px;
 }
+
+/*?-------- SECTION AUTO CATEGORIES SEARCH---------- */
+.row-box-shadow {
+  box-shadow: 2px 4px 20px 0px #aaaaaa57;
+}
+
+.col-box-shadow {
+  box-shadow: 3px 2px 3px 0px #aaaaaa20;
+}
+
+.auto-category-search img {
+  width: 100%;
+}

@@ -50,6 +50,7 @@ Jumbotron: Carousel
 - Migliorare stile bottoni che contengono icone
 - Controllare grandezza font testo Jumbotron
 - Aggiungere icone(button) per slider Jumbotron
+- Aggiustare padding e dimensioni delle (card auto) nella sezione Auto-list **se rimane tempo lavorare sul box-shadow**
 
 ---
 

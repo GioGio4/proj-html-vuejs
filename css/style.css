@@ -26,6 +26,10 @@ body {
   vertical-align: middle;
 }
 
+img {
+  max-width: 100%;
+}
+
 /*************************************** 
 *          HEADER                      *
 *                                      *
@@ -107,3 +111,5 @@ body {
 .auto-category-search img {
   width: 100%;
 }
+
+/*?-------- SECTION AUTO LIST---------- */

@@ -45,12 +45,13 @@ Jumbotron: Carousel
 <h1 style="color:red">!DA RIVEDERE:! </h1>
 #####Header:
 
-- Controllare in lista link l'immagine che non viene visualizzata
+- Controllare in lista link (navbar) l'immagine che non viene visualizzata
 - Controllare margini Navbar
 - Migliorare stile bottoni che contengono icone
 - Controllare grandezza font testo Jumbotron
 - Aggiungere icone(button) per slider Jumbotron
 - Aggiustare padding e dimensioni delle (card auto) nella sezione Auto-list **se rimane tempo lavorare sul box-shadow**
+- Rivedere icone sezione (auto info)
 
 ---
 

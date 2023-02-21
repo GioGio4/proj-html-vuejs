@@ -52,6 +52,7 @@ Jumbotron: Carousel
 - Aggiungere icone(button) per slider Jumbotron
 - Aggiustare padding e dimensioni delle (card auto) nella sezione Auto-list **se rimane tempo lavorare sul box-shadow**
 - Rivedere icone sezione (auto info)
+- Abbellire un po le Card nella sezione (Testimonial) **lasciare per ultimo**
 
 ---
 

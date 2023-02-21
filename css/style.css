@@ -168,3 +168,29 @@ img {
 .text-custom {
   color: #484848;
 }
+
+/*?-------- SECTION TESTIMONIAL --------- */
+.testimonial {
+  background-image: url(../img/assets/comment-bg-autocar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-testimonial {
+  color: var(--secondary);
+}
+
+.custom-icon > i:first-child {
+  font-size: 70px;
+}
+
+.card-testimonial {
+  background-color: var(--secondary);
+  padding: 3rem 2rem;
+  border-radius: 10px;
+}
+
+.card-testimonial > img {
+  width: 40%;
+}

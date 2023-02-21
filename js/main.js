@@ -52,7 +52,7 @@ createApp({
           icon: "add.png",
         },
         {
-          title: "  ",
+          title: "",
           link: "#",
           icon: "bars-staggered-solid.svg",
         },

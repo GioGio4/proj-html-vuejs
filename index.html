@@ -44,19 +44,30 @@
 <body>
     <div id="root">
 
-        <!-- Prova Navbar usando javascript  -->
-        <nav>
-            <ul class="d-flex g-2">
-                <li v-for="object in navbar" class="mx-2" :class="object.image !== ''?'nav-img-content':''">
-                    <a :href="object.link">
-                        <img v-if="object.image !== ''" :src="'./img/'+object.image" alt="logo">
-                        {{object.title}}
+        <!-- 
+    HEADER
+    ! rivedere
+ -->
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/assets/logo-autocar11.png" alt="Bootstrap" width="200" height="70">
                     </a>
-                </li>
-            </ul>
+                    <!-- Lista link -->
+                    <ul class="navbar-link d-flex align-items-center">
+                        <li v-for="object in navbarList" class="nav-item mx-2 "
+                            :class="object.icon !== ''&& object.title !== '' ?'nav-icon-content':''">
+                            <a class="nav-link active" aria-current="page" :href="object.link"><img
+                                    v-if="object.icon !== ''" :src="'./img/'+object.icon" alt="logo">
+                                {{object.title}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
+        </header>
 
-        </nav>
     </div>
 
 </body>

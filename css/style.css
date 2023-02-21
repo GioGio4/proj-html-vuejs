@@ -1,20 +1,35 @@
-/*! DEBUG 
-/*!Prova NavBar  */
+:root {
+  --primary: #000000;
+  --secondary: #ffffff;
+  --grey: #aaaaaa;
+}
 
+/*************************************** 
+*          GENERICS                    *
+*                                      *
+****************************************/
 ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
+body {
+  color: var(--primary);
 }
 
-nav img {
-  max-width: 20px;
-  filter: invert();
-}
-
-.nav-img-content {
+/*************************************** 
+*          HEADER                      *
+*                                      *
+****************************************/
+/*?-------- NAV BAR---------- */
+/* TODO: Icone dentro nav-bar colori invertiti */
+.nav-icon-content {
   background-color: black;
+  border-radius: 3px;
+  padding: 5px;
   color: white;
+}
+
+.nav-icon-content img {
+  max-height: 45px;
+  filter: invert();
 }

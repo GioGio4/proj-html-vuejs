@@ -14,3 +14,36 @@ Usare un operatore ternario per l'aggiunta di classe che crea uno sfondo nero e 
 ```
 TIPS: Usare -filter:invert- per le image(icone) nella navbar
 ```
+
+---
+
+#####STRUTTURA LAYOUT:
+
+<small style="color:green">#Header: Navbar dati in javascript + css</small>
+
+```html
+Esempio recupero dati da javascript:
+
+<ul class="d-flex g-2">
+  <li
+    v-for="object in navbar"
+    class="mx-2"
+    :class="object.image !== ''?'nav-img-content':''"
+  >
+    <a :href="object.link">
+      <img v-if="object.image !== ''" :src="'./img/'+object.image" alt="logo" />
+      {{object.title}}
+    </a>
+  </li>
+</ul>
+```
+
+Jumbotron: Carousel
+
+---
+
+<h1 style="color:red">!DA RIVEDERE:! </h1>
+#####Header:
+
+- Controllare in lista link l'immagine che non viene visualizzata
+- Controllare margini Navbar

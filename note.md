@@ -47,3 +47,6 @@ Jumbotron: Carousel
 
 - Controllare in lista link l'immagine che non viene visualizzata
 - Controllare margini Navbar
+- Migliorare stile bottoni che contengono icone
+- Controllare grandezza font testo Jumbotron
+- Aggiungere icone(button) per slider Jumbotron

@@ -16,6 +16,16 @@ body {
   color: var(--primary);
 }
 
+.btn-black {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 10px 20px;
+}
+
+.btn-black > i {
+  vertical-align: middle;
+}
+
 /*************************************** 
 *          HEADER                      *
 *                                      *
@@ -32,4 +42,32 @@ body {
 .nav-icon-content img {
   max-height: 45px;
   filter: invert();
+}
+
+/*?-------- JUMBOTRON---------- */
+
+.jumbotron {
+  border-top: 15px solid var(--primary);
+  border-bottom: 15px solid var(--primary);
+}
+
+#jumbotron-carousel > .carousel-inner {
+  height: 70vh;
+}
+
+#jumbotron-carousel > .carousel-inner > .carousel-item {
+  height: 100%;
+}
+
+#jumbotron-carousel > .carousel-inner > .carousel-item > img {
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.carousel-text {
+  position: absolute;
+  color: var(--secondary);
+  bottom: 50%;
+  left: 10%;
 }

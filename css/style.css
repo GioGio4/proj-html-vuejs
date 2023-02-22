@@ -40,6 +40,14 @@ body {
   vertical-align: middle;
 }
 
+.btn-subscribe {
+  background-color: var(--secondary);
+  color: #ccc5c2;
+  padding: 20px 0;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
 img {
   max-width: 100%;
 }
@@ -233,4 +241,17 @@ a {
 footer {
   background-color: var(--primary);
   color: var(--secondary);
+}
+
+.company-info i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-email-custom {
+  border-style: none;
+  padding: 20px 20px;
+  border-radius: 3px;
+  margin-bottom: 3px;
 }

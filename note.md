@@ -96,6 +96,7 @@ return{
 - Abbellire un po le Card nella sezione (Testimonial) **lasciare per ultimo**
 - Sistemare un po la parte grafica sezione (articles), colore e tipo testo. **lasciare per ultimo**
 - Controllare grandezza custom icon (sezione articles).
+- Controllare distanza colonne nel Footer
 
 ---
 

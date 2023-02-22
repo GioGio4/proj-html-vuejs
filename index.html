@@ -461,26 +461,29 @@
         <!-- 
  FOOTER
  -->
-        <footer>
+        <footer class="py-5">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-between align-items-baseline">
 
                     <!-- Company Info -->
-                    <div class=" col-3">
+                    <div class=" col-2">
                         <div class="company-info d-flex flex-column">
-                            <span>
+                            <span class="mb-4">
                                 <img :src="'./img/assets/' + companyInfo.logo" alt="logo">
                             </span>
                             <span>
-                                <i class="fa-solid fa-location-dot"></i>{{companyInfo.addres}}
+                                <i class="fa-solid fa-location-dot"></i><small
+                                    class="align-top">{{companyInfo.addres}}</small>
                             </span>
                             <span>
-                                <i class="fa-solid fa-phone-volume"></i>{{companyInfo.number}}
+                                <i class="fa-solid fa-phone-volume"></i><small
+                                    class="align-top">{{companyInfo.number}}</small>
                             </span>
                             <span>
-                                <i class="fa-solid fa-envelope"></i>{{companyInfo.email}}
+                                <i class="fa-solid fa-envelope"></i><small
+                                    class="align-top">{{companyInfo.email}}</small>
                             </span>
-                            <span>
+                            <span class="text-center">
                                 <a :href="companyInfo.facebook">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </a>
@@ -494,8 +497,23 @@
                         </div>
                     </div>
 
+                    <!-- Join Newsletter -->
+                    <div class="col-4">
+                        <div class="email-form d-flex flex-column">
+                            <h3>
+                                Join our Newsletter
+                            </h3>
+                            <p>
+                                Subscribe to be informed about our services and product.
+                            </p>
+                            <input type="email" placeholder="Your Email Addres" class="input-email-custom">
+                            <button type="button" class="btn-subscribe">Subscribe <i
+                                    class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+
                     <!-- Account Area link -->
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="account-area d-flex flex-column">
                             <h3>
                                 {{accountAreaLink.title}}
@@ -503,14 +521,14 @@
                             <!-- List link -->
                             <ul class="d-flex flex-column p-0">
                                 <li v-for="link in accountAreaLink.linkList">
-                                    <a :href="link.link">{{link.title}}</a>
+                                    <a :href="link.link">{{'- '+link.title}}</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
                     <!-- Quick Link Area -->
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="quick-link-area d-flex flex-column">
                             <h3>
                                 {{quickLinkArea.title}}
@@ -518,13 +536,19 @@
                             <!-- List link -->
                             <ul class="d-flex flex-column p-0">
                                 <li v-for="link in quickLinkArea.linkList">
-                                    <a :href="link.link">{{link.title}}</a>
+                                    <a :href="link.link">{{'- '+link.title}}</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
+                <!-- Copyright  -->
+                <p class="text-center mt-5">
+                    <small><i class="fa-regular fa-copyright"></i> 2022 Autocar - All Rights
+                        Reserved.
+                    </small>
+                </p>
             </div>
         </footer>
     </div>

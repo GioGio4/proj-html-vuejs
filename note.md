@@ -53,6 +53,8 @@ Jumbotron: Carousel
 - Aggiustare padding e dimensioni delle (card auto) nella sezione Auto-list **se rimane tempo lavorare sul box-shadow**
 - Rivedere icone sezione (auto info)
 - Abbellire un po le Card nella sezione (Testimonial) **lasciare per ultimo**
+- Sistemare un po la parte grafica sezione (articles), colore e tipo testo. **lasciare per ultimo**
+- Controllare grandezza custom icon (sezione articles).
 
 ---
 

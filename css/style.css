@@ -219,3 +219,13 @@ img {
   box-shadow: 3px 1px 9px 2px #00000029;
   height: 100%;
 }
+
+/*************************************** 
+*          FOOTER                      *
+*                                      *
+****************************************/
+
+footer {
+  background-color: var(--primary);
+  color: var(--secondary);
+}

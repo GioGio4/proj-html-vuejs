@@ -62,6 +62,16 @@ createApp({
           icon: "headphones.png",
         },
       ],
+
+      companyInfo: {
+        logo: "logo-footer-autocar11.png",
+        addres: "New Jersey, USA",
+        number: "+1(234) 567 89 10",
+        email: "example@example.com",
+        facebook: "#",
+        twitter: "#",
+        instagram: "#",
+      },
     };
   },
   methods: {},

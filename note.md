@@ -42,6 +42,47 @@ Jumbotron: Carousel
 
 ---
 
+<h1 style="color:red">PRIME NOTE FOOTER </h1>
+
+###La struttura js del Footer conterrà:
+
+- 1 Oggetto informazioni aziendali.
+
+```javascript
+return{
+  aziendainfo: {
+        logo: imglogo,
+        indirizzo: testo,
+        tel: testo,
+        linkfacebook: link,
+        etc....
+ },
+}
+```
+
+- 2 Oggetti con un titolo e una lista di oggetti con titolo e link .
+
+```javascript
+  return{
+    accountarea:{
+      title: "My account",
+      linkList:[
+        {
+          title:My account,
+          link: #,
+        },
+        {
+          title: Checkout,
+          link: #,
+        },
+      ]
+    }
+  }
+
+```
+
+---
+
 <h1 style="color:red">!DA RIVEDERE:! </h1>
 #####Header:
 

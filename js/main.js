@@ -3,8 +3,7 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      //* NavBar List completa
-
+      //* NavBar List
       navbarList: [
         {
           title: "Home",
@@ -63,6 +62,7 @@ createApp({
         },
       ],
 
+      // FOOTER Company info object
       companyInfo: {
         logo: "logo-footer-autocar11.png",
         addres: "New Jersey, USA",
@@ -71,6 +71,60 @@ createApp({
         facebook: "#",
         twitter: "#",
         instagram: "#",
+      },
+
+      // FOOTER Account area link
+      accountAreaLink: {
+        title: "My Account",
+        linkList: [
+          {
+            title: "My Account",
+            link: "#",
+          },
+          {
+            title: "Checkout",
+            link: "#",
+          },
+          {
+            title: "Cart",
+            link: "#",
+          },
+          {
+            title: "Packages",
+            link: "#",
+          },
+          {
+            title: "Add car",
+            link: "#",
+          },
+        ],
+      },
+
+      // FOOTER quick link area
+      quickLinkArea: {
+        title: "Quick Links",
+        linkList: [
+          {
+            title: "Home",
+            link: "#",
+          },
+          {
+            title: "About Us",
+            link: "#",
+          },
+          {
+            title: "Blog",
+            link: "#",
+          },
+          {
+            title: "Contact",
+            link: "#",
+          },
+          {
+            title: "Refund & Returns",
+            link: "#",
+          },
+        ],
       },
     };
   },

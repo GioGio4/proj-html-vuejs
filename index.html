@@ -464,6 +464,7 @@
         <footer>
             <div class="container">
                 <div class="row">
+
                     <!-- Company Info -->
                     <div class=" col-3">
                         <div class="company-info d-flex flex-column">
@@ -490,6 +491,36 @@
                                     <i class="fa-brands fa-twitter"></i>
                                 </a>
                             </span>
+                        </div>
+                    </div>
+
+                    <!-- Account Area link -->
+                    <div class="col-3">
+                        <div class="account-area d-flex flex-column">
+                            <h3>
+                                {{accountAreaLink.title}}
+                            </h3>
+                            <!-- List link -->
+                            <ul class="d-flex flex-column p-0">
+                                <li v-for="link in accountAreaLink.linkList">
+                                    <a :href="link.link">{{link.title}}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Quick Link Area -->
+                    <div class="col-3">
+                        <div class="quick-link-area d-flex flex-column">
+                            <h3>
+                                {{quickLinkArea.title}}
+                            </h3>
+                            <!-- List link -->
+                            <ul class="d-flex flex-column p-0">
+                                <li v-for="link in quickLinkArea.linkList">
+                                    <a :href="link.link">{{link.title}}</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

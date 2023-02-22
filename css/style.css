@@ -201,6 +201,16 @@ a {
   background-color: var(--secondary);
   padding: 3rem 2rem;
   border-radius: 10px;
+  position: relative;
+}
+
+.icon-background {
+  color: #ac9dc626;
+  font-size: 85px;
+  position: absolute;
+  left: 39%;
+  top: 19%;
+  transform: rotate(10deg);
 }
 
 .card-testimonial > img {

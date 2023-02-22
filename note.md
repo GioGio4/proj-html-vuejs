@@ -86,17 +86,17 @@ return{
 <h1 style="color:red">!DA RIVEDERE:! </h1>
 #####Header:
 
-- Controllare in lista link (navbar) l'immagine che non viene visualizzata
-- Controllare margini Navbar
-- Migliorare stile bottoni che contengono icone
-- Controllare grandezza font testo Jumbotron
-- Aggiungere icone(button) per slider Jumbotron
-- Aggiustare padding e dimensioni delle (card auto) nella sezione Auto-list **se rimane tempo lavorare sul box-shadow**
-- Rivedere icone sezione (auto info)
-- Abbellire un po le Card nella sezione (Testimonial) **lasciare per ultimo**
-- Sistemare un po la parte grafica sezione (articles), colore e tipo testo. **lasciare per ultimo**
-- Controllare grandezza custom icon (sezione articles).
-- Controllare distanza colonne nel Footer
+- [x] Controllare in lista link (navbar) l'immagine che non viene visualizzata
+- [x] Controllare margini Navbar
+- [x] Migliorare stile bottoni che contengono icone
+- [x] Controllare grandezza font testo Jumbotron
+- [ ] Aggiungere icone(button) per slider Jumbotron
+- [ ] Aggiustare padding e dimensioni delle (card auto) nella sezione Auto-list **se rimane tempo lavorare sul box-shadow**
+- [ ] Rivedere icone sezione (auto info)
+- [ ] Abbellire un po le Card nella sezione (Testimonial) **lasciare per ultimo**
+- [ ] Sistemare un po la parte grafica sezione (articles), colore e tipo testo. **lasciare per ultimo**
+- [ ] Controllare grandezza custom icon (sezione articles).
+- [ ] Controllare distanza colonne nel Footer
 
 ---
 

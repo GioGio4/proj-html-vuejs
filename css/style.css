@@ -8,19 +8,6 @@
 *          GENERICS                    *
 *                                      *
 ****************************************/
-/* @font-face {
-  font-family: myFirstFont;
-  src: url(../img/assets/free-fa-regular-400.svg-fonta.svg);
-}
-@font-face {
-  font-family: mySecondFont;
-  src: url(../img/assets/free-fa-solid-900.svg-fonta.svg);
-}
-
-@font-face {
-  font-family: myThirdFont;
-  src: url(../img/assets/free-fa-brands-400.svg-fonta.svg);
-} */
 
 ul {
   list-style: none;
@@ -33,7 +20,7 @@ body {
 .btn-black {
   background-color: var(--primary);
   color: var(--secondary);
-  padding: 10px 20px;
+  padding: 15px 35px;
 }
 
 .btn-black > i {
@@ -66,8 +53,13 @@ a {
 .nav-icon-content {
   background-color: black;
   border-radius: 3px;
-  padding: 5px;
+  padding: 8px;
   color: white;
+}
+
+/* TODO: Usato min-width altrimenti immagine.svg non veniva visualizzata */
+.navbar img {
+  min-width: 30px;
 }
 
 .nav-icon-content img {
@@ -97,10 +89,16 @@ a {
 }
 
 .carousel-text {
+  max-width: 600px;
   position: absolute;
   color: var(--secondary);
   bottom: 50%;
-  left: 10%;
+  left: 20%;
+}
+
+.carousel-text > h2 {
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 /*************************************** 

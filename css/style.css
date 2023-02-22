@@ -165,6 +165,7 @@ a {
 .badge.badge-team {
   right: 10%;
   bottom: 10%;
+  padding-top: 2rem;
 }
 
 .badge.badge-exp {
@@ -252,4 +253,9 @@ footer {
   padding: 20px 20px;
   border-radius: 3px;
   margin-bottom: 3px;
+}
+
+.account-area li,
+.quick-link-area li {
+  line-height: 2rem;
 }

@@ -92,11 +92,11 @@ return{
 - [x] Controllare grandezza font testo Jumbotron
 - [ ] Aggiungere icone(button) per slider Jumbotron
 - [x] Aggiustare padding e dimensioni delle (card auto) nella sezione Auto-list **se rimane tempo lavorare sul box-shadow**
-- [ ] Rivedere icone sezione (auto info)
+- [x] Rivedere icone sezione (auto info)
 - [ ] Abbellire un po le Card nella sezione (Testimonial) **lasciare per ultimo**
 - [ ] Sistemare un po la parte grafica sezione (articles), colore e tipo testo. **lasciare per ultimo**
 - [x] Controllare grandezza custom icon (sezione articles).
-- [ ] Controllare distanza colonne nel Footer
+- [x] Controllare distanza colonne nel Footer
 
 ---
 
